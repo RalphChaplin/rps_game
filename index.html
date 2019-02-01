@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="stylesheet.css">
+
+    <title>Rock Paper Scissors</title>
+  </head>
+  <body>
+
+    <h1>Rock, Paper, Scissors!</h1>
+    <div class="scoreBox">
+      <h2>SCORE</h2>
+      <h3>YOU: <span id="yourScore">0</span></h3>
+      <h3>COMPUTER: <span id="compScore">0</span></h3>
+    </div>
+
+    <div class="changeTextBox">
+      <h4 id="changeText">Play against the computer! Press any button to start.</h4>
+      <h4 id="winnerText"></h4>
+    </div>
+
+    <div id="choices">
+      <div id="rock" class="choice" value="rock"><p id="rockChoice">ROCK</p></div>
+      <div id="paper" class="choice" value="paper"><p id="paperChoice">PAPER</p></div>
+      <div id="scissors" class="choice" value="scissors"><p id="scissorsChoice">SCISSORS</p></div>
+    </div>
+
+    <script src="animation.js" charset="utf-8"></script>
+  </body>
+</html>

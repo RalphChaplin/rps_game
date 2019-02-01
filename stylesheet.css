@@ -1,0 +1,67 @@
+body {
+  text-align: center;
+  font-family: sans-serif;
+  display: inline-block;
+  background-image: linear-gradient(to bottom right, #307fff, #30fbff);
+  color: #FFFFFF;
+  margin: 0 auto;
+  width: 100vw;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+.scoreBox {
+  border: .8rem solid #FFFFFF;
+  font-size: .8rem;
+  height: 10rem;
+  width: 15rem;
+  border-radius: 3rem;
+  margin: auto;
+  margin-top: 3rem;
+  padding-top: 1.3rem;
+}
+.changeTextBox {
+  width: 80%;
+  height: 1rem;
+  margin: auto;
+  margin-top: 3rem;
+}
+
+
+#choices {
+  margin-top: 18vh;
+}
+
+
+.choice {
+  width: 6rem;
+  height: 3.5rem;
+  border-radius: .5rem;
+  display: inline-grid;
+  background-color: darkblue;
+  cursor: grab;
+}
+
+.choice:hover {
+  background-color: lightgreen;
+  cursor: grab;
+}
+
+.choice p {
+  margin: auto;
+  font-weight: bold;
+}
+
+
+
+#you, #computer {
+  text-align: center;
+  font-weight: bold;
+}
